@@ -19,6 +19,7 @@ function minimum(numbers: number[]): number {
 }
 
 export default function levenshtein(s: string, t: string): number {
+  if (s === t) return 0;
   let d: number[][] = init(s.length, t.length);
 
   for (let i = 1; i <= s.length; i++) {

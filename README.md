@@ -5,7 +5,7 @@ Implementation of the Wagner-Fischer algorithm to compute the Levenshtein distan
 ## Usage
 
 ```typescript
-import levenshtein from "https://raw.githubusercontent.com/aosync/levenshtein/master/mod.ts";
+import levenshtein from "https://deno.land/x/levenshtein/mod.ts";
 
 levenshtein("kitten", "sitting"); // 3
 ```
